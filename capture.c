@@ -491,8 +491,8 @@ static void init_device(void)
 	fprintf(stderr, "Force Format %d\n", force_format);
         if (force_format) {
 		if (force_format==2){
-             		# fmt.fmt.pix.width       = 1920;     
-           		# fmt.fmt.pix.height      = 1080;  
+             		// fmt.fmt.pix.width       = 1920;     
+           		// fmt.fmt.pix.height      = 1080;  
   			fmt.fmt.pix.width       = 1280;     
            		fmt.fmt.pix.height      = 720;  
   			fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_H264;
